@@ -14,6 +14,7 @@ CREATE TABLE Cliente_PF
   cpf char(11) not null,
   rg varchar(10) not null,
   data_nascimento date not null,
+  nome_resp varchar(50) not null,
   sexo char(1) not null,
   complemento varchar(20),
   numero varchar(10),
